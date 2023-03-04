@@ -1,0 +1,42 @@
+/*! News cards grid */
+@media (min-width: 868px) {
+   #news .cards-container {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 40rem));
+      justify-content: center;
+   }
+}
+
+/*! Footer */
+@media (max-width: 1164px) {
+   footer button {
+      display: none;
+   }
+
+   footer .footer-left {
+      margin-inline: auto;
+      text-align: center;
+   }
+
+   footer .footer-left hr {
+      width: 100%;
+   }
+}
+
+/*! Stupid navbar borders // very radioactive code ⚠️ */
+@media (max-width: 542px) {
+   .navbar-links li:last-child a {
+      border-left: 0.0625rem var(--accent-white-200) solid;
+   }
+}
+@media (max-width: 456px) {
+   .navbar-links li:nth-child(3) a {
+      border-left: 0.0625rem var(--accent-white-200) solid;
+   }
+}
+@media (max-width: 365px) {
+   .navbar-links li:nth-child(2) a {
+      border-left: 0.0625rem var(--accent-white-200) solid;
+   }
+}

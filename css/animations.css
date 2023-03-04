@@ -1,0 +1,79 @@
+/*! Hero background image */
+main img[src*="img/hero-img.png"] {
+   animation: fromDarkerToLighter 1s ease-in-out;
+}
+
+@keyframes fromDarkerToLighter {
+   0% {
+      filter: brightness(75%);
+   }
+   100% {
+      filter: brightness(100%);
+   }
+}
+
+/*! Hero title */
+main h1 {
+   animation: appearFromTop2 1.5s cubic-bezier(0.42, 0.08, 0.58, 0.94);
+}
+
+@keyframes appearFromTop2 {
+   0% {
+      transform: translateY(-150%) translateX(-3.5rem) scale(75%);
+   }
+   100% {
+      transform: translateY(0%) translateX(-3.5rem) scale(100%);
+   }
+}
+
+/*! Hero subtitle */
+main h3 {
+   animation: fadeInFromLeft 2s cubic-bezier(0.44, 0.17, 0.48, 0.91);
+   animation-delay: 0.25s;
+   animation-fill-mode: forwards;
+}
+
+@keyframes fadeInFromLeft {
+   0% {
+      opacity: 0;
+      transform: translateX(-10%);
+   }
+   100% {
+      opacity: 1;
+      transform: translateX(0%);
+   }
+}
+
+/*! Hero paragraph */
+main p {
+   animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+/*! Card view buttons */
+#news .cards-container .card-content-container .card-btn {
+   animation: viewBtn 4s ease-in-out infinite;
+}
+
+@keyframes viewBtn {
+   0% {
+      box-shadow: 0 0 0 transparent;
+      transform: translateY(0%);
+   }
+   25% {
+      box-shadow: 0 0 1rem var(--accent-white-500);
+      transform: translateY(-10%);
+   }
+   50% {
+      box-shadow: 0 0 0 transparent;
+      transform: translateY(0%);
+   }
+}

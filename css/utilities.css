@@ -1,0 +1,241 @@
+/* Positions */
+.relative {
+   position: relative;
+}
+
+.absolute {
+   position: absolute;
+}
+
+.fixed {
+   position: fixed;
+}
+
+.static {
+   position: static;
+}
+
+/* Displays */
+.none {
+   display: hidden;
+}
+
+.flex {
+   display: flex;
+}
+
+.grid {
+   display: grid;
+}
+
+.block {
+   display: block;
+}
+
+.inline {
+   display: inline;
+}
+
+.inline-block {
+   display: inline-block;
+}
+
+/* Overflow */
+.overflow-hidden {
+   overflow: hidden;
+}
+
+.overflow-scroll {
+   overflow: scroll;
+}
+
+.overflow-x-hidden {
+   overflow-x: hidden;
+}
+
+.overflow-x-scroll {
+   overflow-x: scroll;
+}
+
+.overflow-y-hidden {
+   overflow-y: hidden;
+}
+
+.overflow-y-scroll {
+   overflow-y: scroll;
+}
+
+/* Text size */
+.text-xs {
+   font-size: 0.75rem;
+}
+
+.text-sm {
+   font-size: 0.875rem;
+}
+
+.text-base {
+   font-size: 1rem;
+}
+
+.text-lg {
+   font-size: 1.125rem;
+}
+
+.text-xl {
+   font-size: 1.25rem;
+}
+
+.text-2xl {
+   font-size: 1.5rem;
+}
+
+.text-3xl {
+   font-size: 1.875rem;
+}
+
+.text-4xl {
+   font-size: 2.25rem;
+}
+
+.text-5xl {
+   font-size: 3rem;
+}
+
+.text-6xl {
+   font-size: 3.75rem;
+}
+
+/* Text alignment */
+.text-center {
+   text-align: center;
+}
+
+.text-left {
+   text-align: left;
+}
+
+.text-right {
+   text-align: right;
+}
+
+/* Spacing */
+.my-1 {
+   margin-block: 1rem;
+}
+
+.my-2 {
+   margin-block: 1.5rem;
+}
+
+.my-3 {
+   margin-block: 2rem;
+}
+
+.my-4 {
+   margin-block: 3rem;
+}
+
+.my-5 {
+   margin-block: 4rem;
+}
+
+.mx-1 {
+   margin-inline: 1rem;
+}
+
+.mx-2 {
+   margin-inline: 1.5rem;
+}
+
+.mx-3 {
+   margin-inline: 2rem;
+}
+
+.mx-4 {
+   margin-inline: 3rem;
+}
+
+.mx-5 {
+   margin-inline: 4rem;
+}
+
+.m-1 {
+   margin: 1rem;
+}
+
+.m-2 {
+   margin: 1.5rem;
+}
+
+.m-3 {
+   margin: 2rem;
+}
+
+.m-4 {
+   margin: 3rem;
+}
+
+.m-5 {
+   margin: 4rem;
+}
+
+.py-1 {
+   padding-block: 1rem;
+}
+
+.py-2 {
+   padding-block: 1.5rem;
+}
+
+.py-3 {
+   padding-block: 2rem;
+}
+
+.py-4 {
+   padding-block: 3rem;
+}
+
+.py-5 {
+   padding-block: 4rem;
+}
+
+.px-1 {
+   padding-inline: 1rem;
+}
+
+.px-2 {
+   padding-inline: 1.5rem;
+}
+
+.px-3 {
+   padding-inline: 2rem;
+}
+
+.px-4 {
+   padding-inline: 3rem;
+}
+
+.px-5 {
+   padding-inline: 4rem;
+}
+
+.p-1 {
+   padding: 1rem;
+}
+
+.p-2 {
+   padding: 1.5rem;
+}
+
+.p-3 {
+   padding: 2rem;
+}
+
+.p-4 {
+   padding: 3rem;
+}
+
+.p-5 {
+   padding: 4rem;
+}
