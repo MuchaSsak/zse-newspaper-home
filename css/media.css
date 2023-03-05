@@ -39,4 +39,13 @@
    .navbar-links li:nth-child(2) a {
       border-left: 0.0625rem var(--accent-white-200) solid;
    }
+   
+   /* Hero title */
+   main h1 {
+      transform: translateX(-1.5rem);
+   }
+
+   main h1 span {
+      margin-left: 6rem;
+   }
 }
